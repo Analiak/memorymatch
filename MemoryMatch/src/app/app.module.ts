@@ -43,7 +43,7 @@ import { RestartButtonComponent } from './components/no-shared/game/restart-butt
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
     FormsModule
   ],
   providers: [],
