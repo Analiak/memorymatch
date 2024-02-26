@@ -1,8 +1,7 @@
-body {
-  background-color: red;
-  height: 199px;
-  width: 100px;
-}
-.family {
-  background-color: rebeccapurple;
+.simpson-family-cloud{
+  background-color:red;
+  opacity: 40%;
+  border-radius: 10px;
+  width: 245px;
+  height: 320px;
 }

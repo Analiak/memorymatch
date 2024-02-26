@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./simpson-family-cloud.component.css'],
 })
 export class SimpsonFamilyCloudComponent {
-  title = 'familia';
+  title = 'family';
 }
