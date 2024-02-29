@@ -8,3 +8,4 @@ import { Component } from '@angular/core';
 export class SimpsonFamilyCloudComponent {
   title = 'family';
 }
+let welcome : string ="¡Bienvenido!";
