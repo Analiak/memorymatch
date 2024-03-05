@@ -1,5 +1,10 @@
 <div class="input-button-container">
     <label for="nombre"></label>
-    <input type="text" id="nombre" [(ngModel)]="nombre" placeholder="Ingresa tu nombre aquí" />
-    <button (click)="ingresar()" >Ingresar</button>
+    <input type="text" id="nombre" [(ngModel)]="name" placeholder="Ingresa tu nombre aquí" />
+    <button (click)="saveName()" class="button">Ingresar</button>
+ <!--new lines -->.
+      <p *ngIf="savedName"> ¡Bienvenid@
+         {{ savedName}} !
+      </p>
+    <!-- new lines-->
   </div>

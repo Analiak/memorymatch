@@ -6,9 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./input-button.component.css']
 })
 export class InputButtonComponent {
-  nombre: string = '';
+  name: string = '';
+  savedName: string = '';
 
-  ingresar() {
-    console.log('Nombre ingresado:', this.nombre);
+  saveName() {
+    console.log('Nombre ingresado:', this.name);
+    // new line
+    this.savedName= this.name;
   }
 }
+
+
+
