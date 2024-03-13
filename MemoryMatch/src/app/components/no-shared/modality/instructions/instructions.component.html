@@ -1,1 +1,4 @@
-<p>instructions works!</p>
+<button (click)="openModal()">Abrir Modal</button>
+<app-window-modal *ngIf="modalService.isModalOpen()" (closeModalEvent)="closeModal()"></app-window-modal>
+
+
