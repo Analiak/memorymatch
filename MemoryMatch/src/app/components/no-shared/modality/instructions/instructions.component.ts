@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ModalService } from 'src/app/modal-service.service';
+import { ModalService } from 'src/app/services/modal-service.service';
 
 @Component({
   selector: 'app-instructions',

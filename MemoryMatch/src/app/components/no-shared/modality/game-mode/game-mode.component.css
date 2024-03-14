@@ -4,16 +4,15 @@
 }
 
 .time-buttons {
-  position: fixed;
   bottom: 20px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
-  z-index: 999;
+  gap: 5px;
 }
 
-.time-buttons button {
+.time-buttons button  {
   background-color: #8CC84B;  
   border-radius: 5px;
   border-radius: 5px;
@@ -26,4 +25,5 @@
   width: 131px;
   height: 32px;
   border-radius: 10px;
+
 }
