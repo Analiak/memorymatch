@@ -5,8 +5,9 @@ import { ModalityComponent } from './components/views/modality/modality.componen
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'Modality', component: ModalityComponent }
-];
+  { path: 'modality', component: ModalityComponent },
+  ];
+  
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../../../../assets/fonts/Montserrat-Bold.ttf");
+}
+
+.time-buttons {
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  gap: 5px;
+}
+
+.time-buttons button  {
+  background-color: #8CC84B;  
+  border-radius: 5px;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0px 2px 3px gray;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: bold;
+  width: 131px;
+  height: 32px;
+  border-radius: 10px;
+
+}
