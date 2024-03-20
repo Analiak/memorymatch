@@ -7,13 +7,18 @@ import { ModalService } from 'src/app/services/modal-service.service';
   styleUrls: ['./instructions.component.css']
 })
 export class InstructionsComponent {
-  constructor(public modalService: ModalService) {} // Cambia 'private' a 'public'
+  showModal: boolean = false; // Define la propiedad showModal aquí
+
+  constructor(public modalService: ModalService) {}
 
   openModal() {
+    this.showModal = true; // Actualiza el valor de showModal al abrir la modal
     this.modalService.openModal();
   }
 
   closeModal() {
+    this.showModal = false; // Actualiza el valor de showModal al cerrar la modal
     this.modalService.closeModal();
   }
 }
+

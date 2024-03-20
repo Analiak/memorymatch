@@ -22,6 +22,7 @@ import { EndgameModalComponent } from './components/no-shared/game/endgame-modal
 import { RestartButtonComponent } from './components/no-shared/game/restart-button/restart-button.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WindowModalComponent } from './components/no-shared/modality/window-modal/window-modal.component';
+import { ModalService } from './services/modal-service.service';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,9 @@ import { WindowModalComponent } from './components/no-shared/modality/window-mod
     FormsModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [
+    ModalService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
