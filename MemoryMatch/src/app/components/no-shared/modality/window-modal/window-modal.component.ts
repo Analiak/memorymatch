@@ -8,12 +8,11 @@ import { ModalService } from 'src/app/services/modal-service.service';
 })
 export class WindowModalComponent {
 
-  constructor(private modalService: ModalService) {}
+  constructor(public modalService: ModalService) {} 
 
   closeModal() {
     this.modalService.closeModal();
   }
-
 }
 
 
