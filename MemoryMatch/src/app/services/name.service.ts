@@ -4,13 +4,14 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class NameService {
-
+  // Inicializando name como un string vacío
+  name: string = "";
   constructor() { }
-  // se inicializa con string vacío, "string"? 
-  // name:string="";
-  name :string[] = [];
-  // indicar método
-  add(welcome:string){
-    this.name.push(welcome)
+  // Método para agregar un nuevo nombre
+  add(newName: string) {
+      // Reemplazar el nombre actual con el nuevo nombre
+      this.name = newName;
   }
 }
+
+

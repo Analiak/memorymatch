@@ -1,3 +1,12 @@
-<div class="next-button">
-<button routerLink="modality">Siguiente</button>
+<div class="next-button" >
+<!--
+        acá solo se ve el botón sgte si se ingresa el nombre
+*ngIf="nameService.name !== ''"
+-->
+<button (click)="checkName()"  routerLink="modality">Siguiente</button>
+<!--
+        esta línea deshabilita el botón si está vacío el nombre, va dentro de las prop del botón,
+         no da el alert porque lo deshabilita, se debería deshabilitar luego del click
+        [disabled]="nameService.name === ''" 
+-->
         </div>

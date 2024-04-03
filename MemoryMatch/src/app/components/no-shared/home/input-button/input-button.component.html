@@ -1,19 +1,7 @@
 <div class="input-button-container">
    <form class="input-button-container" (ngSubmit)="addName()">
     <label for="nombre"></label>
-   
        <input type="text" id="nombre" placeholder="Ingresa tu nombre aquí" name="name" [(ngModel)]="name" /> 
     <button class="button">Ingresar</button> 
    </form>
-   <!-- <input type="text" id="nombre" [(ngModel)]="name" placeholder="Ingresa tu nombre aquí" /> 
-    <button (click)="saveName()" class="button">Ingresar</button> -->
- <!--new lines 
-      <p *ngIf="savedName"> ¡Bienvenid@
-         {{ savedName}} !
-      </p>
-    new lines-->
-    <!--Probando que al escribir se refleje en el mismo componente
-    {{name}}
-   Pribando que se refleje el dato enviado desde el servicio 
- {{nameService.name | json}}-->
   </div>
