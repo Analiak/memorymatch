@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../../../../assets/fonts/Montserrat-Bold.ttf');
+  }
+  
+.instruction-button {
+    background-color: #FF6AAE;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    right: 20px;
+    box-shadow: 0px 2px 3px gray;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    width: 131px;
+    height: 32px;
+    border-radius: 10px;
+}

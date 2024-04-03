@@ -20,6 +20,9 @@ import { CardComponent } from './components/no-shared/game/card/card.component';
 import { TimerComponent } from './components/no-shared/game/timer/timer.component';
 import { EndgameModalComponent } from './components/no-shared/game/endgame-modal/endgame-modal.component';
 import { RestartButtonComponent } from './components/no-shared/game/restart-button/restart-button.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { WindowModalComponent } from './components/no-shared/modality/window-modal/window-modal.component';
+import { BackComponent } from './components/shared/back/back.component';
 
 @NgModule({
   declarations: [
@@ -39,12 +42,15 @@ import { RestartButtonComponent } from './components/no-shared/game/restart-butt
     CardComponent,
     TimerComponent,
     EndgameModalComponent,
-    RestartButtonComponent
+    RestartButtonComponent,
+    WindowModalComponent,
+    BackComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
